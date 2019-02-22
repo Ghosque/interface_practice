@@ -38,7 +38,7 @@ function checkThree() {
     }
     else {
         var PASSWORD_VALUE = document.getElementsByName("password")[0].value;
-        if (PASSWORD_VALUE == PASSWORD_VALUE){
+        if (PASSWORD_VALUE == CONFIRM_VALUE){
             document.getElementById("confirm-img").src = "success.jpg";
             document.getElementById("confirm-title").textContent = "";
         }
