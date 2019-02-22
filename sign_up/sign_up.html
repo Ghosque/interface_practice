@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+
+    <link rel="stylesheet" href="sign_up.css" type="text/css" />
+    <script type="text/javascript" src="sign_up.js"></script>
+</head>
+<body>
+<img src="background.jpg" class="background">
+
+<!--头部-->
+<div class="head">
+    <span class="head1">
+        ZHONGLN
+        &nbsp;&nbsp;
+        注册
+    </span>
+    <span class="head2">
+        <a href="">加入我们</a>
+        &nbsp;&nbsp;
+        ZHONGLN
+    </span>
+    <br><br><br><br><br><hr>
+</div>
+
+<!--主界面-->
+<div class="main">
+    <input type="text" class="account-in" name="account" placeholder="请输入账号" autocomplete="off">
+    &nbsp;&nbsp;
+    <img src="tip.jpg" class="main-img" id="account-img">&nbsp;
+    <span class="sign-up-title" id="account-title">请输入账号</span>
+    <br><br>
+
+    <input type="password" class="account-in" name="password" placeholder="请输入密码" autocomplete="off" onfocus="checkOne()">
+    &nbsp;&nbsp;
+    <img src="tip.jpg" class="main-img" id="password-img">&nbsp;
+    <span class="sign-up-title" id="password-title">请输入密码</span>
+    <br><br>
+
+    <input type="text" class="account-in" name="confirm" placeholder="请确认密码" autocomplete="off" onfocus="checkTwo()">
+    &nbsp;&nbsp;
+    <img src="tip.jpg" class="main-img" id="confirm-img">&nbsp;
+    <span class="sign-up-title" id="confirm-title">请再次输入密码</span>
+    <br><br>
+
+    <input type="text" class="verify-in" name="verify" id="verify" placeholder="请输入验证码" autocomplete="off" onfocus="checkThree()" oninput="checkFour()">
+    <img src="verify.jpg" class="verify-img">&nbsp;
+    <img src="tip.jpg" class="main-img" id="verify-img">&nbsp;
+    <span class="sign-up-title" id="verify-title">请输入验证码</span>
+    <br><br>
+    <button type="button" class="sign-up-button" onclick="signUp()">注册</button>
+</div>
+
+<!--底部-->
+<div class="bottom">
+    <span class="bottom1">关于ZHONGLN-Designed by Ghosque</span>
+</div>
+</body>
+</html>
