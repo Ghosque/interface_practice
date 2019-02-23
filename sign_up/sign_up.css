@@ -45,6 +45,7 @@
 .main-img{
     width: 20px;
     height: 20px;
+    vertical-align: middle;
 }
 
 .account-in{
@@ -54,12 +55,13 @@
 
 .verify-in{
     height: 26px;
-    width: 188px;
+    width: 90px;
 }
 
 .verify-img{
     height: 26px;
-    width: 52px;
+    width: 146px;
+    vertical-align: middle;
 }
 
 .sign-up-title{
@@ -68,7 +70,7 @@
 }
 
 .sign-up-button{
-    width: 240px;
+    width: 244px;
     font-size: 18px;
     color: white;
     background: orange;
@@ -92,3 +94,5 @@ a:link {color: white}
 a:visited {color: white}
 a:hover {color: blue}
 a:active {color: white}
+
+span{vertical-align: middle;}

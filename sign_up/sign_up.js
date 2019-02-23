@@ -91,7 +91,7 @@ function signUp() {
     else if (PASSWORD_VALUE != CONFIRM_VALUE){
         alert("两次输入密码不一致");
     }
-    else if (VERIFY_VALUE.toLowerCase() != "cxfm"){
+    else if (VERIFY_VALUE.toLowerCase() != "wzjm"){
         alert("验证码输入有误");
     }
     else {
